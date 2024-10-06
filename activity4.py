@@ -6,3 +6,4 @@ B|C
 B&C
 B|C&B&C
 Q=B|C&B&C|A&B
+print(Q)
