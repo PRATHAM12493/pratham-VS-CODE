@@ -1,14 +1,8 @@
-def reverse_number(number):
-    original_number = number
-    reverse = 0
-
-    for _ in str(number):
-        digit = number % 10
-        reverse = reverse * 10 + digit
-        number //= 10
-
-    print(f&quot,Original Number: {original_number}&quot)
-    print(f&quot,Reversed Number: {reverse}&quot)
-
-reverse = 6789
-reverse_number(reverse)
+def reverse_bits(number, bit_size):    
+    max_value = (1 << bit_size) - 1
+    return max_value - number
+ 
+if __name__ == "__main__":
+    num = 156
+    size = 32
+    print(reverse_bits(num, size))

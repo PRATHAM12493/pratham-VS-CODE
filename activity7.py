@@ -1,9 +1,5 @@
-from math import log,trunc
-def checkPowerof8(n):
-     i = log(n, 8)
-     return (i - trunc(i) < 0.000001);
-n = 65
-if checkPowerof8(n):
-    print("Yes")
+a=64
+if(a%8==0):
+    print("It is a power of 8")
 else:
-    print("No")
+    print("It is not a power of 8")
