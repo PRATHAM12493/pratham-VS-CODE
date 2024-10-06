@@ -7,8 +7,8 @@ def reverse_number(number):
         reverse = reverse * 10 + digit
         number //= 10
 
-    print(f&quot,Original Number: {original_number}&quot;)
-    print(f&quot,Reversed Number: {reverse}&quot;)
+    print(f&quot,Original Number: {original_number}&quot)
+    print(f&quot,Reversed Number: {reverse}&quot)
 
 reverse = 6789
 reverse_number(reverse)
